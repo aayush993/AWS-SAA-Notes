@@ -1,0 +1,15 @@
+- Scalable 2 way marketing comm service 
+- Supports 
+	- email 
+	- push 
+	- voice 
+	- SMS - Primary use case
+	- in-app message
+- segment and personalize messages to customers 
+- receive replies - stream these events to SNS, KDF or Cloudwatch logs to automate workflows
+- Scales to billions of messages per day 
+- Use: run marketing campaigns or transactional SMS
+- Vs [[SNS]] [[Amazon Simple Email Service (SES)]]
+	- You manage audience, content and delivery 
+	- you create template in Pinpoint with schedules, segments and campaigns
+		- it take care

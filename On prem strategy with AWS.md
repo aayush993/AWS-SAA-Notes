@@ -1,0 +1,15 @@
+- Ability to download Amazon Linux 2 AMI as a VM (iso format)
+	- To use with VMWare, KVM, VirtualBox, Microsfot Hyper V
+- VM Import / Export
+	- Migrate existing instances to EC2
+	- Create DR repo strategy for on-prem VM 
+	- Can export back VMs from EC2 to on-prem 
+- AWS Application Discovery Service 
+	- Gather info about on-prem servers to plan a migration 
+	- Server utilization and dependency mappings 
+	- Track with AWS migration Hub 
+- AWS DMS
+	- Replicate DB into AWS and out or in between 
+	- Work with various db tech 
+- AWS Server Migration Service (SMS)
+	- Incremental replication of on-prem live serves to AWS

@@ -1,0 +1,11 @@
+- Set of tools and services 
+	- helps in developing and deploying scalable full stack 
+		- web and mobile applications 
+- Authentication, Storage, API, CI/CD, PubSub, Analytics, AI/ML Predictions.
+- Connect your source code 
+	- github
+	- AWS CodeCommit 
+	- BitBucket 
+	- GitLab 
+	- upload directly 
+![[Pasted image 20240209143939.png]]

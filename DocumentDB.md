@@ -1,0 +1,5 @@
+- Cloud native DB for Mongo DB (just like Aurora for MySQL)
+- Fully managed, Highly available with replication across 3 AZ
+- grows storage automatically in increment of 10GB
+- Auto scales to workload with millions of requests per seconds
+- Anytime in exam No SQL Db - think Document DB and DynamoDB

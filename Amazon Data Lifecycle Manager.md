@@ -1,0 +1,1 @@
+- Automate creation, deletion and retention of EBS snapshots and EBS backed AMI's

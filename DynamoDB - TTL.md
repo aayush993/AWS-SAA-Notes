@@ -1,0 +1,5 @@
+- Delete items auto, after time passes t==he expiry timestamp stored within the item.==
+- Use:
+	- keep only current items, 
+	- regulatory obligation 
+	- web session handling

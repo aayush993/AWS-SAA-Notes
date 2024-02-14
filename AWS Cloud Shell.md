@@ -1,0 +1,7 @@
+- Regional
+- Use to access AWS CLI from browser.
+- All CLI capabilities.
+- created files, retained after restart.
+- Download/Upload files
+- Multiple terminals. 
+- Format your shell font and theme

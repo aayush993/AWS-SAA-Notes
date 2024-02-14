@@ -1,0 +1,9 @@
+- Managed Apache Cassandra (which is a NoSQL DB)
+- ==Serverless==, scalable, highly available, fully managed by AWS
+- ==Auto scale tables up/down based on app traffic== 
+- Tables replicated 3 times across AZ
+- use ==CQL== 
+- single digit ms latency at any scale, 100S OF REQS
+- ==Capacity mode like Dynamo DB== - on-demand and provisioned
+- Encryption, backup, PITR up to 35 days
+- Use: IOT devices info, time series data

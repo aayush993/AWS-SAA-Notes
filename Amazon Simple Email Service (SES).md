@@ -1,0 +1,16 @@
+- Fully managed service to send emails securely, globally at scale 
+- Allow inbound/outbound emails 
+	- can receive replies
+- Reputation dashboard, performance insights, anti-spam feedback.
+- Provide stats
+	- email deliveries
+	- bounces 
+	- feedback loop results
+	- email open 
+- Support Domain Key Identified Mail (DKIM) and Sender Policy Framework (SPF)
+- Flexible IP deployment
+	- shared 
+	- dedicated 
+	- customer-owned IPs
+- send emails using AWS console, APIs or SMTP
+- Use case: transactional, marketing and bulk emails. 

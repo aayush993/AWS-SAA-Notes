@@ -1,0 +1,7 @@
+- customers use VMware Cloud to manage on-prem DC 
+- to extend capacity with AWS while using VMWare Cloud Software: Use VMWare Cloud 
+- Use 
+	- Migrate VMWare cloud workload to AWS 
+	- Run prod workloads on private, public and hybrid cloud 
+	- Have DR strategy 
+- Advantage: Now customer can leverage AWS services as well.

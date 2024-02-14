@@ -1,0 +1,9 @@
+- Improves performance 10x, no extra cost
+- Free feature ==for Java 11 and above== 
+- Java lambda invocation lifecycle - intialize, invoke, shutdown 
+- Snapstart when enabled, skips initilization 
+- How ?
+	- When lambda new version is published 
+	- Initializes your function 
+	- takes snapshot of memory and disk state of initialized function 
+	- ==snapshot is cached for low latency access.==

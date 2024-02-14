@@ -1,0 +1,14 @@
+- Fully managed 
+- fast scalable 
+- serverless time series DB
+- Auto scales up and down to adjust capacity 
+- Store and analyze trillions of events per day  
+- ==1000S TIME FASTER & 1/10TH CHEAP AS COMPARED TO RDBMS==
+- scheduled queries, multi measure records, SQL Compatibility 
+- ==Data storage tiering== 
+	- Recent - in-memory 
+	- historical - cost optimized storage 
+	- Built in time series analytics 
+- Encryption 
+- Use case: IOT apps, operational apps, real-time analytics
+![[Pasted image 20240129142307.png]]

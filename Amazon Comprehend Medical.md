@@ -1,0 +1,8 @@
+- Physician notes
+- Discharge summaries
+- Test results 
+- Case notes 
+- Use NLP to ==detect Protected Health Information ==- DetectPHI API
+- Store docs in S3
+- Or realtime with Kinesis Data FireHose
+- Or Transcribe with Amazon Transcribe and later analyze

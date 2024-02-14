@@ -1,0 +1,6 @@
+- written in Node.js, python 
+- scales to 1000s of req /sec
+- Used for req and response
+	- Viewer
+	- Origin
+- Author function in one AWS Region (us-east-1), cloudfront will replicate to its locations

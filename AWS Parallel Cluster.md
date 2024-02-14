@@ -1,0 +1,3 @@
+- Configure with Text files
+- Automate VPC create, subnet, cluster type and instance types
+- ability to enable [[EFA]] to improve network performance

@@ -1,0 +1,7 @@
+- If EC2 is origin
+	- should be publicly accessible.
+	- And must allow cloudfront public IP to access them. 
+- If ALB,
+	- EC2 behind can be private. 
+	- ALB must have public access
+	- Must allow Public IPs of Edge locations. 

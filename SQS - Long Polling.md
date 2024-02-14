@@ -1,0 +1,6 @@
+- LongPolling decreases number of API calls made to SQS while ==increasing the efficiency and latency of your application.==
+- If no message, optionally can wait up to 20 secs. 
+- preferable. 
+- Enabled:
+	- at queue level 
+	- By consumer, using API WaitTimeSeconds.

@@ -1,0 +1,18 @@
+- Service to protect from DDoS attack
+- Standard: Free service
+	- protection from SYN/UDP Floods, reflection attach 
+	- other layer 3/4 attacks
+- Advanced: 
+	- DDoS mitigation service ($3000 per month per organization)
+	- Protect against attack on
+		- EC2, 
+		- ELB, 
+		- CloudFront, 
+		- Global Accelerator 
+		- Route 53
+	- 24/7 DDoS Response team access
+	- protect against fees during spikes 
+	- Auto Application Layer DDoS mitigation 
+		- creates 
+		- evaluates 
+		- Deploy WAF rules

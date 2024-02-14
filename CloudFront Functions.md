@@ -1,0 +1,7 @@
+- Written in Javascript 
+- For High scale, latency sensitive CDN Customization 
+- sub-ms startup times, millions of req/seconds
+- Used for:
+	- Viewer req
+	- Viewer resp
+- Native CloudFront feature

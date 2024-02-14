@@ -1,0 +1,19 @@
+- Automate patching for managed instances 
+- supports 
+	- EC2 
+	- On-prem
+- OS updates, application updates 
+- Support 
+	- Linux 
+	- Max
+	- Win
+- Patch 
+	- On-demand
+	- scheduled - [[System Manger - Maintenance Windows]]
+- Patch compliance report - Scan Instances,
+	- AWS
+- Uses AWSRunBatchBaseLine command via run comand.
+- Triggered from 
+	- AWS Console 
+	- AWS SDK 
+	- Maintenance Window

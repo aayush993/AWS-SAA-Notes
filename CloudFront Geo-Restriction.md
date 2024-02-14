@@ -1,0 +1,5 @@
+- Distributions can be restricted in countries using:
+	- AllowList 
+	- BlockList
+- Country determined by  3rd party Geo-IP DB
+- Use: Copyright laws, restrict content.

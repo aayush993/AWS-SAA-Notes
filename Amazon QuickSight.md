@@ -1,0 +1,38 @@
+- Serverless machine learning-powered BI service to create interactive dashboards
+- Fast, auto scalable, embeddable, with per session pricing
+- Use case:
+	- BA
+	- Build visualization 
+	- Perform Ad-hoc analysis
+	- Get business insights 
+- ==In memory computation with SPICE engine==
+	- If data is imported in QuickSight
+- Enterprise edition: 
+	- ==Column Level Security==
+- Integrate with:
+	- AWS Services
+		- RDS
+		- Aurora
+		- Redshift
+		- Athena 
+		- S3 
+		- OpenSearch 
+		- TimeStream
+	- 3rd party SAAS
+		-  Salesforce 
+		- jira
+	- 3rd party DB 
+		- teradata 
+		- On-prem DB
+	- Import Data sources -> Use SPICE on it.
+		- XL, CSV, TSV, JSON, ELF & CLF
+
+## Dashboard & Analysis 
+- You can define Users (Standard edition) and groups in (Enterprirse)
+	- they exist only in Quicksight not IAM
+- Dashboard 
+	- read-only snapshot of an analysis you can share
+	- preserves config of analysis 
+- ==Can share dashboard or analysis with User and Groups==
+- share by publishing it
+- Who see dashboard see underlying data.

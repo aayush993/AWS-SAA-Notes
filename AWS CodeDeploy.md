@@ -1,0 +1,1 @@
+- deploys content stored in a repo according to config files specified. 

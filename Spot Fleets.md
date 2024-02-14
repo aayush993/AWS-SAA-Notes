@@ -1,0 +1,11 @@
+- Set of spot instance + (optional) On demand instances.
+- Spot fleet try and meet target within price constraint
+	- Define possible launch pools (Choose various Instance attributes needed)
+	- More launch pools more choice 
+	- will stop launching instance as cost / capacity maxes
+- Strategies to allocate Spot Instances:
+	- lowestPrice in the pool
+	- diversified: distributed across pool
+	- capacityOptimized 
+	- priceCapacityOptimized (Recommended) 
+		- Pool with highest capacity for instances required and then select pool with lowest prices

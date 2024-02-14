@@ -1,0 +1,9 @@
+- Fully managed graph database
+- ex of graph dataset : social network
+- Highly available across 3AZ, with up to 15 read replicas
+- Build and run apps for highly connected datasets
+- can store billions of relations and query the graph with millisecond latency 
+- Great for 
+	- Knowledge graph 
+	- fraud detection 
+	- social networking

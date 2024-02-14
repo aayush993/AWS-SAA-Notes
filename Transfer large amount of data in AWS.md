@@ -1,0 +1,12 @@
+- Ex: 200TB data over 100Mbps internet 
+- Over internet / S2S Connection 
+	- immediate setup 
+	- Time: 200 x1000 GB x1000 MB x 8Mb /100 Mbps = 16000000s 
+- Over DX 1Gbps
+	- time to setup - a month 
+	- time to transfer - 18 days 
+- Snowball 
+	- multiple snowballs in parallel 
+	- Takes about a week
+	- combined with DMS 
+- For on going replication /transfers - S2S VPN or DX with DMS or DataSync

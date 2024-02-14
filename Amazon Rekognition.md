@@ -1,0 +1,23 @@
+- Find in ==Images and videos using ML==
+	- Objects
+	- People 
+	- text
+	- scenes
+- ==Facial analysis== and ==facial search== to do user verification, people counting
+- Create DB of Familiar faces
+- Use
+	- Labeling 
+	- Content moderation 
+	- Text detection
+	- Face detection and analysis 
+	- FACE SEARCH AND VERIFICTAION 
+	- Celebrity recognition
+	- Pathing (ex: sport game analysis)
+## Content Moderation 
+- Detect inappropriate content 
+- Use: social media, broadcast media, advertising and ecommerce
+- ==Set minimum confidence level threshold for items that will be flagged==
+	- Lower you set it more matches (for inappropriate) you will get.
+- Flag sensitive content for ==manual review== 
+	- ==review in Amazon Augemented AI (A2I)==
+- Help comply regulations

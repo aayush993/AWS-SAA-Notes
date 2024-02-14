@@ -1,0 +1,10 @@
+-  Simplifies common maintenance and deployment tasks of EC2 instances and AWS resources 
+- Ex: restart instances, create an AMI, EBS Snapshot 
+- Automation Runbooks - Automation documents 
+	- pre-defined 
+	- custom
+- Triggered via:
+	- AWS Console, AWS CLI or SDK 
+	- EventBridge 
+	- Maintenance window 
+	- AWS Config

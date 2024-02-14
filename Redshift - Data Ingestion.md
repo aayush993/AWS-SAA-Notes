@@ -1,0 +1,12 @@
+- 3 ways 
+	- [[Kinesis Data Firehose]]
+		- Load data from different sources to Redshift 
+		- Internally, loads in S3 first and then issue a copy command to load it in Redshift
+	- S3
+		- Using copy command 
+		- Two options: 
+			- Through Internet 
+			- Enhanced VPC Routing (Through VPC)
+	- Using JDBC Driver 
+		- Like if EC2 instance wants to write to redshift 
+		- better to write data in large batches

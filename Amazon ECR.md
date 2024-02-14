@@ -1,0 +1,10 @@
+- Elastic Container Registry 
+- Store and manage Docker images on AWS 
+- Private and Public Repo (Public Gallery)
+- ==Fully integrated with ECS, backed by S3==
+- Access controlled by IAM policies
+- Supports 
+	- Image Vulnerability scanning 
+	- versioning 
+	- image tags 
+	- Image lifecycle

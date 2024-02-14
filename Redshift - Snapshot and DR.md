@@ -1,0 +1,10 @@
+- ==Redshift has Multi AZ mode for some clusters==
+- If you dont have multi AZ, then you can use snapshot to recover your cluster.
+- Snapshots are point in time backups of a cluster
+	- ==Stored in S3 internally== 
+	- Are ==incremental== (only what changed)
+	- Automated - every 8hr, every 5GB or on a schedule. Set retention 
+	- Manual - indefinite retention, until delete 
+- You can configure
+	- To copy snapshot automatically or manually
+	- ==to another AWS region==

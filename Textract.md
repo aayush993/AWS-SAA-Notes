@@ -1,0 +1,7 @@
+- Auto extract text, handwriting and data from scanned docs using AI and ML 
+- Extract forms and tables 
+- Process documents 
+- Use:
+	- Financial services - invoices
+	- Healthcare - medical records
+	- Public sector - tax forms

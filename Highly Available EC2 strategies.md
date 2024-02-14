@@ -1,0 +1,8 @@
+- Elastic IP address -> cloudwatch alarm on a metric of EC2 -> trigger lambda
+	- attach EIP to new standby EC2. 
+- Elastic IP with ASG
+	- max = min=desired = 1 over 2 AZ, guarantees when AZ goes down another AZ EC2 is available.
+	- use EC2 User data to attach EIP 
+- For EBS 
+	- Use [[ASG]] Terminate Lifecycle Hook -> take EBS Snapshot to S3 
+	- Use ASG Launch Lifecycle hook -> to create EBS Volume from snapshot and attach to new EC2

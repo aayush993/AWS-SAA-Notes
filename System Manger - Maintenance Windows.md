@@ -1,0 +1,7 @@
+- Define schedule to perform actions 
+- Ex: patching, updating, installing 
+- Maintenance window contains 
+	- schedule 
+	- duration 
+	- set of registered instances 
+	- Set of registered tasks 

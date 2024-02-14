@@ -1,0 +1,12 @@
+- Per region 
+	- Execution:
+		- Memory allocation - ==128 MB - 10 GB== (Increments of 1GB)
+		- Max allocation time: 900 seconds (==15 minutes==)
+		- Environment Variable - ==4KB== 
+		- Disk Capacity in function container (/tmp): ==512 Mb to 10GB==
+		- Concurrency executions- 1000 (can be increased)
+	- Deployment 
+		- Deployment size - ==50MB compressed zip== 
+		- Uncompressed: code + dependencies + LAYERS - ==250MB== 
+		- /tmp directory to load files at startup
+		- env variable - 4KB

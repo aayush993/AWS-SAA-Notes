@@ -1,0 +1,17 @@
+- ordered stream of item level modifications (create/update/delete) in a table 
+- Use case: 
+	- React to change in real-time 
+	- Real-time usage analytics 
+	- insert into derivative table 
+	- implement cross region replication 
+	- Invoke AWS lambda on changes to your table 
+- Two Options 
+	- Dynamo DB streams
+		- 24 hr retention 
+		- Limited customers 
+		- Process using AWS lambda triggers or DynamoDB Stream kinesis adapter
+	- [[Kinesis Data Streams]]
+		- 365 days retention 
+		- High # of customers 
+		- Process using lambda, KDA, KDF, AWS Glue etc.
+	![[Pasted image 20240128232814.png]]

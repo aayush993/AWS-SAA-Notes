@@ -1,0 +1,30 @@
+- Successor to Amazon ElasticSearch
+- DynamoDB - Query on Primary Key 
+- OpenSearch -==Search any field, even partial matches== 
+- common: use OpenSearch as complement to another DB
+- ==2 Modes:==
+	- Managed cluster 
+	- Serverless cluster 
+- SQL Support not available  natively 
+	- Can be enabled with ==plugin== 
+- Ingestion 
+	- KDF 
+	- AWS IOT 
+	- CloudWatch Logs 
+- Security 
+	- Cognito 
+	- IAM 
+	- KMS Encryption 
+	- TLS
+- Comes with ==OpenSearch Dashboards== 
+
+## Patterns 
+- With DynamoDB 
+	- CRUD to DynamoDB -> DynamoDB streams -> Lambda function -> OpenSearch 
+	- Now app can search through opensearch and use DynamoDB to get the items .
+- With [[CloudWatch Logs]]
+	- Send logs using subscription filter to Lambda which can send to ==OpenSearch in Real Time.==
+	- Send to KDF instead of lambda that will s==end in near real time to OpenSearch==
+- Sending Kinesis Data streams
+	- to KDF and then to Open Search== in near real-time== 
+	- to Lambda (real-time) -> OpenSearch

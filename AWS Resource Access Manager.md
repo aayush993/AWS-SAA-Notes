@@ -1,0 +1,4 @@
+- Share VPC
+- Share Prefix list 
+	- customer managed
+- AWS Managed Prefix list cannot be shared.- only for AWS services

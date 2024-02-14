@@ -1,0 +1,11 @@
+- Amazon Lex 
+	- tech powering Alexa 
+	- ASR to convert speech to text 
+	- Natural language understanding 
+		- recognize intent of calls and texts
+	- Help build chatbots and call center bots
+- Amazon Connect 
+	- Receive call, create contact flows, ==cloud based virtual contact center==
+	- Can integrate with other CRM systems or AWS
+	- cheaper than regular call center
+- ![[Pasted image 20240129215400.png]]

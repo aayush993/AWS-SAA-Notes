@@ -1,0 +1,13 @@
+- Export to S3 (must enable PITR)
+	- works for any point in last 35 days 
+	- Does not effect read capacity of table 
+	- Used for 
+		- perform data analysis
+		- Retain snapshot for auditing 
+		- ETL on S3 data before import to new DynamoDB table 
+	- Export DynamoDB JSON or ION format
+- Import from S3
+	- Import CSV, DynamoDB JSON, ION 
+	- Does not consume write capcity 
+	- ==Creates new table== 
+	- errors logged while importing in Cloudwatch logs

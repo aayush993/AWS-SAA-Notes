@@ -1,0 +1,3 @@
+- Server side filtering using SQL
+- faster and cheaper
+- filter by rows & columns ==( simple SQL statements)==

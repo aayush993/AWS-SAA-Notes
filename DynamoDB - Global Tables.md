@@ -1,0 +1,4 @@
+- ==Specify region and make DynamoDB table accessible== from there for low latency 
+- has ==two way replication==
+- can read/write to any region 
+- ==DynamoDB streams should be enabled==,  pre-requisite

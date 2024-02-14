@@ -1,0 +1,5 @@
+ - S3 stores objects (files) in "buckets" (directories)
+- ==Must have globally unique name.== 
+- [[Bound to Region]] 
+- Naming: Should not start with No : UC, "_" ,  not contain IP, prefix xn--, suffix -s3alias
+- ==Must start with lowercase letter or number==

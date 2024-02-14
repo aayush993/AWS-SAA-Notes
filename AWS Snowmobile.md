@@ -1,0 +1,6 @@
+- Actual truck 
+- transfer exabytes of data ( 1EB = 1000PB = 1000000 TBs)
+- ==Each has 100 PB capacity== 
+- use multiple in parallel 
+- ==High security: temp controlled, 24X7 cctv==
+- Better than snowball ==when transfer more than 10PB==

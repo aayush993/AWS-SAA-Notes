@@ -1,0 +1,5 @@
+- Block as far out as possible. 
+- NACL to block 
+- WAF with ALB for IP address filtering 
+- Cloudfront oustide with ALB using WAF for filtering 
+	- Also use Geo-restriction

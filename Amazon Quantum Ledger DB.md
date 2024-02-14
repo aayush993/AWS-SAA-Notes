@@ -1,0 +1,7 @@
+- ledger = book of finacial transactions 
+- ==Fully managed, serverless==, Highly available, replication across 3AZ 
+- Use: ==review all the changes to data over time== 
+- Immutable system 
+- 3-3x better performance than common ledger blockchain frameworks
+- manipulate data using SQL
+- ==vs Amazon managed blockchain== - it has no decentralized component, in accordance with financial regulations

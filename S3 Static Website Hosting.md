@@ -1,0 +1,3 @@
+- S3 can host static websites to be accessible over internet 
+- URL will depend on region.
+- 403 forbidden means public access not set on bucket

@@ -1,0 +1,9 @@
+- Egress traffic - outbound 
+- Ingress traffic - inbound usually free. 
+- Try to keep as much traffic in AWS as possible. 
+	- Like - if you are querying DB from AWS and getting data to on-prem 
+		- Then querying the same. 
+	- Instead you can move your app to AWS (Same AZ as DB). query data in AWS itself. 
+		- Send only the result out. Cost is minimized
+- For direct connect, Use location that are collocated in same AWS region 
+	- to minimize egress cost.

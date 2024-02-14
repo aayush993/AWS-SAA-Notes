@@ -1,0 +1,22 @@
+- Invoke Lambda from RDS and Aurora 
+	- Invoke from ==within your DB instance== 
+	- ==Allow to process data events from within DB== 
+	- Supported: ==RDS PostgreSQL and Aurora MySQL==
+	- Must allow outbound traffic to your lambda function from DB instance 
+		- Public 
+		- NAT GW
+		- VPC Endpoints 
+	- DB Instance must have permissions to invoke lambda functions 
+		- Lambda resource policy 
+		- IAM policy 
+- RDS Event Notifications 
+	- Notifications ==about DB instance itself ( not data events)==
+	- Like: 
+			- DB Instance
+			- DB Snapshot 
+			- DB Parameter Group
+			- DB Sec group 
+			- RDS Proxy 
+			- Custom engine version
+	- Near real time 
+	- Send notifications to **SNS or EventBridge** from there send to lambda

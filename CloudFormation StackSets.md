@@ -1,0 +1,5 @@
+- Stack Set let you create stacks in AWS accounts across regions by using a single CloudFormation Template.
+- You can create, update and delete in target accounts. 
+- Stack set is regional. You can only view it in the region you have selected. If you have deployed it in that region. 
+- Needs a trust relationship between Administrator account and target account. 
+- Can assign tags to your resources while creating for cost and billing.

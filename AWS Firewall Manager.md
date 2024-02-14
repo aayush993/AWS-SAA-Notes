@@ -1,0 +1,10 @@
+- Manage Rules in all accounts of an AWS Organizations 
+- ==Security Policy== - set of rules 
+	- WAF rules 
+	- AWS Shield Advanced 
+	- Sec Groups for EC2, ALB, ENI in VPC
+	- AWS Network Firewall - VPC 
+	- Route 53 Resolver DNS firewall 
+- ==Policies created regional level== 
+- Rules ==applied to new resources created== across all accounts in your org
+- Policy - 100$ per month

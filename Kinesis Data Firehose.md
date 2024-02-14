@@ -1,0 +1,22 @@
+- KDF takes records from producers, (optionally choose)transforms and then batch writes to destinations. 
+- Fully managed, no administration, auto scaling and serverless. 
+- Producers: 
+	- Clients, apps with SDK 
+	- Servers with Kinesis agent 
+	- KDS, Cloudwatch logs and events , AWS IOT
+- Destinations:
+	- AWS: S3, Redshift, Amazon OpenSearch
+	- 3rd party destinations : mongo, splunk, datadog
+	- Custom destination: HTTP endpoint
+- Once data is sent:
+	- All data can be sent to backup S3 bucket 
+	- Only failed data can be sent to an S3 bucket
+- Pay for data going through KDF
+- Near Real Time
+	- 60 seconds latency minimum for non full batches
+	- Or minimum 1MB of data at a time 
+- Supports many data formats, conversions and transformations, compression 
+- Support custom transformations using AWS lambda
+
+##### Buffer Hints 
+- buffer the data for some amount of data or time as chosen before delivering to destination
