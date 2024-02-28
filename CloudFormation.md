@@ -12,7 +12,7 @@
 	- changes can be reviewed as code. 
 - Cost 
 	- each resource of the ==stack==  is tagged with id so we can see how much full stack costs 
-	- estimate cost with CloudFormation Template 
+	- ==estimate cost with CloudFormation Template== 
 	- Saving strategy: In dev automate deletion of templates at 5 and recreation at 8 in the morning.
 - Productivity 
 	- create destroy infra on the fly

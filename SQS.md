@@ -24,3 +24,16 @@ Concepts:
 - front end ASG
 - Back end ASG 
 - SQS buffer in between
+
+## FAQ
+1. Quotas
+	1. Messages in flight for a queue can be 120000 for standard and for Fifo 20000.
+	2. Can be increased by submitting request to AWS. 
+2. Billing - pay per request
+3. Delete all messages - PurgeQueue
+4. Dead letter queues for unprocessed messages 
+	1. we can analyze them 
+	2. and resend them to our queue
+5. AWS SQS Temporary Queues 
+	- Creating virtual queues by using Temporary queue client.
+	- Save development and deployment time, high throughput message pattern.

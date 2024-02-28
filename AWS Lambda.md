@@ -59,13 +59,24 @@ Concepts:
 
 ## Review Notes 
 - Lambda best practices
-	- Enable VPC - only if required. Once enabled it is subjected to VPC rules 
-		- and uses NAT to interact with public APIs 
-	- Deploy common code in Lambda Layers
-		- a function can have max 5 layers at a time 
-		- Layers have resource based policy for cross-account or org permissions 
-		- Total unzipped size with all layers cannot be more than 250 MB
-	- Watch total package size - start will be slow 
-	- Monitor concurrency using cloudwatch alarms ""ConcurrentExecutions"
-		- to avoid surprise in bill
-	- Over provisioning memory but cautiously.
+	- Know when to enable VPC on Lambda
+	    - By default Lambda deployed on AWS Owned VPC and is perfectly capable to access AWS public APIs
+	    - VPC-Enable when you need to interact with private resources like RDS.
+	    - Once enabled, network traffic is subject to routing rules of VPC/Subnet
+	    - To interact with public resource, now lambda needs route through NAT Gateway
+	- Deploy common code to a lambda layer
+	    - For re-usable code, consider creating a layer and deploy there.
+	    - eg: logging package
+	    - function can use up to 5 layers at a time.
+	    - Layer support resource based policy for granting layer usage permissions for accounts or organizations.
+	    - Total unzipped size for function with all layers cannot be > 250 MB limit
+	- Watch package size and dependencies
+	    - bigger package - slower cold start
+	- Monitor concurrency using cloudwatch alarms
+	    - metrics - ConcurrentExecutions or Invocation exceeds the expected threshold
+	    - Configure AWS Budgets
+	- Over provision memory in some cases but not function timeout.
+	    - if you over provision, more processing power → function runs fast.
+	    - Benchmark and compare with less memory.
+	    - not recommended by AWS
+

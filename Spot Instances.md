@@ -10,7 +10,7 @@
 - if current price > max spot price - terminate or stop your workloads
 - 2 minutes grace on loosing spot
 Also,
-- ***Spot Block*** during specified time frame (1-6hours)
+- ***Spot Block*** ==during specified time frame (1-6hours)==
 - rarely, spots are reclaimed.
 
 #### Cancelling Spot Instances

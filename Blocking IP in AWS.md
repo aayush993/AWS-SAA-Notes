@@ -1,5 +1,7 @@
 - Block as far out as possible. 
-- NACL to block 
+- NACL to block, sec group can only allow.
+- Connection termination with ALB Security Group.
+- NLB Security Group
 - WAF with ALB for IP address filtering 
 - Cloudfront oustide with ALB using WAF for filtering 
 	- Also use Geo-restriction

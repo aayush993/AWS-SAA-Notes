@@ -8,6 +8,6 @@
 2. Snowcone SSD- 14 TB SSD
 
 Use this where snowball does not fit.
-Provide own battery and wire
+Provide your own battery and wire
 
 Can be sent offline or connect to internet and use [[AWS DataSync]] to send data.

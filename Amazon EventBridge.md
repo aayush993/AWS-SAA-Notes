@@ -43,7 +43,7 @@ For Eg:
 
 ## Resource-Based Policy 
 - Manage permissions for an event bus
-- Ex: Allow or deny== cross account or region access==
+- Ex: Allow or deny ==cross account or region access==
 - Use: ==aggregate all events from your AWS organization== in a single AWS account or region
 
 ## Sandbox 

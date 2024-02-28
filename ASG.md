@@ -22,7 +22,7 @@ Scaling Policies
 - Launch template is recommended and new features like using on-demand and spot instances together is available 
 - Launch configuration cannot be modified. But template can have multiple versions 
 #### Auto-Scaling
-Use [[CloudWatch]] Alarms for monitoring a metric (Ex: AverageCPU of all ASG instances)
+Use [[CloudWatch Alarms]] for monitoring a metric (Ex: AverageCPU of all ASG instances)
 Based on that:
 	Define Scale Out or In policy
 

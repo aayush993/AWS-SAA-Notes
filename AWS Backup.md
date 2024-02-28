@@ -15,7 +15,7 @@
 ## Features 
 - Supports PITR for supported service 
 - On-demand and scheduled backups 
-- Tag-based backup policies
+- ==Tag-based backup policies==
 - Create backup policies : ==Backup Plans== 
 	- Backup freq 
 	- Backup Window

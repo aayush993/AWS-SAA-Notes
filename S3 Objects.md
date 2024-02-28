@@ -7,4 +7,5 @@ s3://my-bucket/my_folder1/another_folder/my_file.txt
 	- ==Max size is 5TB== 
 	- More than 5 GB, must use "Multi-part Upload"
 - Metadata: list of k/V pair - set by system or user
+	- Metadata is not encrypted.
 - Tags ( Unicode K/V pair - up to 10) - useful for security / lifecycle

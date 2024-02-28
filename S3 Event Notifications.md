@@ -2,7 +2,7 @@
 - For eg: for every object with *.jpg* in name generate an event. 
 - We can use that to generate thumbnails for those objects.
 - ==Can create as many S3 events as desired.==
-- Can ==send to SNS, SQS, Lambda== 
+- Can ==send to SNS, SQS(No FIFO), Lambda== 
 - Can be delivered within seconds or sometime a minute or longer. 
 
 #### Event Notifications - IAM permissions 

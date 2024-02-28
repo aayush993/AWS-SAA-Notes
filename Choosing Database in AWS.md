@@ -18,8 +18,8 @@
 		2. static files, web hosting
 4. Data warehouse: SQL Analytics and BI 
 	1. [[Redshift]] : OLAP
-	2. [[Amazon Athena]]
-	3. [[Amazon EMR]]
+	2. [[Amazon Athena]] - serverless SQL query service
+	3. [[Amazon EMR]] - Hadoop clusters for big data processing.
 5. Search:
 	1. [[Amazon OpenSearch]] : JSON
 6. Graph : Neptune: relationships 

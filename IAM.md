@@ -17,9 +17,9 @@ Access
 	[[User Access]]
 
 ##### Security Tools available:
-1. IAM Credential Report: gives view of account's users credential status
+1. ==IAM Credential Report==: gives view of account's users credential status
 	1. Enforce password best practices
-2. IAM Access Advisor: Service permission granted to user. 
+2. ==IAM Access Advisor==: Service permission granted to user. 
 	1. History of access for that user.
 	2. Helps to revise access policy
 

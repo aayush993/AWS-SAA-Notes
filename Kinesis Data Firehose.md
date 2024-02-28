@@ -1,10 +1,10 @@
 - KDF takes records from producers, (optionally choose)transforms and then batch writes to destinations. 
 - Fully managed, no administration, auto scaling and serverless. 
-- Producers: 
+- ==Producers==: 
 	- Clients, apps with SDK 
 	- Servers with Kinesis agent 
 	- KDS, Cloudwatch logs and events , AWS IOT
-- Destinations:
+- ==Destinations==:
 	- AWS: S3, Redshift, Amazon OpenSearch
 	- 3rd party destinations : mongo, splunk, datadog
 	- Custom destination: HTTP endpoint

@@ -6,3 +6,8 @@
 	- transcribe customer call 
 	- Automate captioning
 	- generate metadata for media assets for search
+
+- Key Feature
+	- speaker identification 
+		- can identify 2 to 10 speakers in the audio clip.
+	- Channel identification

@@ -1,1 +1,4 @@
 - deploys content stored in a repo according to config files specified. 
+- - a deployment is a process and components involved in the process of installing content on one or more instances.
+- Content can consist code, web and config files etc.
+- It deploys content stored in repo according to config files specified.

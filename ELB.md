@@ -11,7 +11,7 @@ ELB is a managed LB.
 - AWS responsible: maintenance, upgrade and High availability 
 - Different types: [[CLB]], [[ALB]], [[NLB]], [[Gateway Load Balancer]] 
 - Recommended to use new gen 
-- can be setup as internal or external
+- can be setup as internal or external facing.
 - [[Bound to Region]] 
 -  - [[SSL Terminate]] for websites 
  - separate public private network

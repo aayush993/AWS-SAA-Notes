@@ -1,4 +1,4 @@
 - Share VPC
-- Share Prefix list 
+- Share Prefix list - CIDR blocks
 	- customer managed
 - AWS Managed Prefix list cannot be shared.- only for AWS services

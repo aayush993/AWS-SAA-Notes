@@ -13,7 +13,7 @@
 5. Use case: big data analytics & gaming apps, content distribution 
 
 #### S3  Infrequent Access
-1.  less freq access, but rapid access when needed
+1.  less freq access, but ==rapid access when needed==
 2. Lower cost than standard
 	1. Standard IA 
 		1. 99.9% AVAILABLE 

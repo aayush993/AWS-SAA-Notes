@@ -24,6 +24,7 @@
 	- Instance status - EC2 VM check 
 	- System status - underlying hardware check
 - Recovery: Get same Public, private, Elastic IP , metadata, placement group
+	- Loose memory state.
 
 
 ## Notes

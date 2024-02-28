@@ -1,4 +1,4 @@
-## Paper 1
+
 Q1:  Backend on-prem in US. low latency access in ASIA
 - Use cloudfront with custom origins
 
@@ -36,13 +36,13 @@ Ans: Versioning can only be suspended.
 
 Q16: EFS is regional. How to collaborate in multi region setup.
 ANS
-	- Use VPC peering connection to make it seem like in same networ. 
+	- Use VPC peering connection to make it seem like in same network. 
 	- collaborate with on-prem with Direct connection or S2S VPN
 	- Note: In S3 you cannot edit the object in-place.
 
 Q23: What Instance Pricing option to Use for 24x7 app and daily 8 hourly app. 
 Ans: RI and On-Demand
-- We cannot use spot blocks as it can only be used upto 6 hours.
+- We cannot use spot blocks as it ==can only be used upto 6 hours==.
 - And it is not offered to new customers now a days. 
 
 Q28: S3 Objects retention periods.
@@ -56,7 +56,8 @@ Ans
 - Different versions can have different retention modes and periods.
 
 Q33: How to Disable Guard Duty and relinquish all findings as well.
-Ans: 
+[[AWS GuardDuty]] 
+Ans: Disable/Suspend Options
 - Just choose disable option under services tab
 - suspend option will stop it from looking at your logs but will not delete existing findings.
 

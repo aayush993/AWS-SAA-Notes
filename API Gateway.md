@@ -17,6 +17,7 @@
 8. Transform and validate requests and responses 
 9. Generate SDK and API specifications 
 10. ==Cache== API responses 
+	1. caches from 300 seconds to 1 hour.
 
 ## Integrations 
 1. Lambda function 

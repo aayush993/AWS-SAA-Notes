@@ -33,3 +33,13 @@
 2. [[CloudFront Geo-Restriction]] 
 3. [[CloudFront - Pricing]] 
 4. [[CloudFront - Cache Invalidation]] 
+
+
+## Review notes
+-  Distribution can have multiple origins based on content. 
+- Origin Failover using Origin Groups(Primary and secondary origin)
+- Field level encryption to encrypt upto 10 data fields in a request. So that only the applications that needs that field can access that.
+
+## Private Content in CloudFront
+- We can either use Signed URLs
+- or Signed Cookies

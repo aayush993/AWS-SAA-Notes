@@ -1,0 +1,16 @@
+- Size - Parameter Store can store 4kb in advanced tier 8Kb 
+	- secret manager can store 64KB
+- Usecase 
+	- Parameter store has wider use case than only passwords or secrets.
+	- for application variables Parameter store is more handy. 
+- Secret manager has built-in password generator 
+	- can be used with cloudformation to generate db passwords. 
+- Both have versioning feature.
+	- parameter store can have only one version active any given time 
+	- Secret manager can have multiple. 
+- Secret manager can rotate secrets. 
+- Parameter store can store data in plain-text as well. 
+- Secret manager can have cross account access.
+- Parameter store cost nothing to use. 
+	- Advanced Parameter store costs. 
+- Parameter store can retrieve your secrets from Secret manager as well

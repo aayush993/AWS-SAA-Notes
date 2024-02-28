@@ -5,7 +5,7 @@ Application Load Balancer (v2)
 	- same machine (containers)
 - Support for HTTP/2 and websocket 
 - ==Support for redirect HTTP to HTTPS==
-- Port mapping feature to redirect to dynamic port in ECS
+- ==Port mapping feature== to redirect to dynamic port in ECS
 - CLB needs multiple LB per application bases. Here not needed.
 - Health checks at target group level
 
@@ -13,6 +13,8 @@ Application Load Balancer (v2)
 - Route based on path in URL. 
 - based on hostname in URL
 - based on query string, headers
+- Source IP/CIDR based routing
+- method based routing
 
 #### Great fit for
 micro services an container based applications

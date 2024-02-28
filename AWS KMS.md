@@ -19,6 +19,7 @@ Different Types of KMS Keys:
 1. AWS Owned Keys (free) - 
 	1. eg: SS3-S3, SSE-SQS, SSE-DDB(Default)
 	2. rotation handled by AWS
+	3. Not stored in you AWS account and hence not tracked by CloudTrail.
 2. AWS Managed Key(free) - 
 	1. eg: aws/service-name
 	2. rotation handled by AWS ==auto 1 year rotation.==

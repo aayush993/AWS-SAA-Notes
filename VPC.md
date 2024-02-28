@@ -1,6 +1,6 @@
 - Virtual Private Cloud 
 - can have multiple VPCs in a AWS region 
-- Max CIDR per VPC is== 5==
+- Max CIDR per VPC is ==5==
 - Each CIDR
 	- Min - /28 (16 IP )
 	- Max - /16 (65536 IP)

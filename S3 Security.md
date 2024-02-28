@@ -4,7 +4,7 @@
 	1. [[S3 Bucket Policies]]: Give cross account access to users
 	2. Object Access Control List (ACL) - finer grain ( can be disabled)
 	3. Bucket Access Control List ( ACL) - less common ( can be disabled)
-		1. Grant access to group of users or accounts not soecified users in othe raccounts
+		1. Grant access to group of users or accounts not specified users in other accounts
 
 When can an IAM principal access S3 bucket:
 	- User IAM permissions allow it 

@@ -63,3 +63,7 @@
 - then --describe-stream
 - then use shard Id, to get shard iterator
 - Using shard iterator get the messages and next shard iterator.
+
+
+
+- To reduce overhead and increase throughput, the application must batch records and implement parallel HTTP requests.

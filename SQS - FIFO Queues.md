@@ -8,7 +8,7 @@
 	- 3000 msg/s with 
 
 - Name has to end with ".fifo"
-- uses a message group ID and a deduplication ID for message.
+- uses a ==message group ID and a deduplication ID== for message.
 
 ## Transition FIFO Queue
 1. Make sure of the limits. 

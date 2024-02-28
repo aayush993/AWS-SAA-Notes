@@ -5,7 +5,7 @@ Classic Ports to know for the exam
 
 21 = FTP (File Transfer Protocol) - upload files into a file share
 
-23 = SFTPF (Secure File Transfer Protocol) - upload files using SSH
+23 = SFTP (Secure File Transfer Protocol) - upload files using SSH
 
 80 = HTTP - access unsecured websites
 

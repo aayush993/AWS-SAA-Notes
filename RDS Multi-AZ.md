@@ -1,5 +1,5 @@
 - SYNC replication
-- One DNS name - auto failover standby
+- ==One DNS name== - auto failover standby
 - Increase availability
 - Failover for: Network, instance or storage failure
 - No intervention in apps. 

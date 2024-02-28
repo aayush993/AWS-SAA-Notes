@@ -14,6 +14,7 @@
 ### Storage 
 - [[EBS Types]]: Upto 256000 IOPS with io2 Block express. 
 - [[EC2 Instance Store]] : scale to millions of IOPS 
+- S3 - blob storage
 - [[EFS]] : scale IOPS based on total Size, use provisioned IOPS
 - [[Amazon FSx]]: for lustre, HPC optimized, millions of IOPS, S3 support
 

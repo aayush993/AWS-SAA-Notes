@@ -39,3 +39,6 @@ Record = Primary Key (Partition key + optional sort key) + attributes
 4. [[DynamoDB - TTL]]
 5. [[DynamoDB - Backups for DR]]
 6. [[DynamoDB - Integration with S3]] 
+
+By Default tables are encrypted by AWS owned keys. 
+You can choose to encrypt with managed or customer managed keys.

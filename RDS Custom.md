@@ -4,6 +4,6 @@
 	- Configure setting yourself
 	- Install patches.
 	- Enable native features
-	- Access EC2 instance using SSH and [[SSM Session Manager]]
+	- Access EC2 instance using SSH and [[SSM- Session Manager]]
 - BP:
 	- Deactivate automation mode. To perform customization better and take snapshot before doing it.

@@ -22,6 +22,6 @@
 - FSx for OpenZFS: Managed ZFS file system 
 - Storage Gateway: S3 & FSx File Gateway, Volume Gateway (cache & stored), Tape Gateway 
 - Transfer Family: FTP, FTPS, SFTP interface on top of Amazon S3 or Amazon EFS 
-- DataSync: Schedule data sync from on-premises to AWS, or AWS to AWS 
+- DataSync: Schedule data sync from on-premises to AWS, or AWS to AWS  (s3 efs fsx)
 - Snowcone / Snowball / Snowmobile: to move large amount of data to the cloud, physically 
 - Database: for specific workloads, usually with indexing and querying

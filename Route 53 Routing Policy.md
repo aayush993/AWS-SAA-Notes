@@ -47,3 +47,13 @@ It defines how Route 53 responds to DNS Queries. It does not route.,
 	3. Routing traffic to multiple resources. return only healthy resources. 
 	4. Up to 8 health record returned for each multi-value query
 	5. For client side load balancing.
+
+## Active-Active vs Active-Passive Failover
+- Active-Active 
+	- use when all resources need to be available all the time. 
+	- Route 53 responds with any healthy resource. 
+	- can be configured using any routing policy or combination. 
+- Active-Passive 
+	- Primary is available all the time 
+	- secondary is just standby
+	- Done by Failover routing policy

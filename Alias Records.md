@@ -12,7 +12,7 @@ Alias Records
 Automatically recognized changes in resource IP's. It's an extension of DNS functionality.
 
 #### Targets can be:
-ELB, CloudFront, API Gateway, Elastic Beanstalk Environments, S3 Websites, VPC Interface Endpoints. Global accelerator, Route 53 record in same hosted zone.
+ELB, CloudFront, API Gateway, Elastic Beanstalk Environments, S3 Websites, VPC Interface Endpoints. Global accelerator, ==Route 53 record in same hosted zone==.
 #### Cannot be set for EC2 DNS Name
 
 
@@ -21,13 +21,14 @@ ELB, CloudFront, API Gateway, Elastic Beanstalk Environments, S3 Websites, VPC I
 - Diff in CNAME and Alias records
 	- Can redirect queries to 
 		- Alias - CloudFront, S3, Another record in same Route 53 hosted zone
-			- redirect to a query to a record in the example.com hosted zone.
+			- redirect to a query to a record in the example.com hosted zone in Route 53
 		- CNAME 
-			- redirect DNS Queries to any DNS record. 
+			- redirect DNS Queries to any DNS record. (Even outside Route 53)
 			- No need to use Route 53 as DNS service for domain you are routing to.
 	- Zone Apex
 		- can create alias record for same name as hosted zone.
-		- Exception - redirecting to a record in same hosted zone that has type of CNAME record (CNAME record for zone apex is not supported)
+		- Exception - Alias record redirecting to a record in same hosted zone that has type of CNAME record (CNAME record for zone apex is not supported)
+		- Alias record must have same type as the record you are targettin.
 	- Cost 
 		- Alias Free
 		- CNAME charged

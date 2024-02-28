@@ -40,3 +40,6 @@ Each time new element added, it's ranked in real-time and then added in correct 
 
 ## Notes
 1.  It's HIPAA compliant
+2.  Redis for geospatial data, sorted sets and many other HA features and transactional support 
+	- Memcached for multi threaded architecture.
+![[Pasted image 20240218112624.png]]

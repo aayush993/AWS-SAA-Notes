@@ -10,6 +10,6 @@
 
 #### Encrypt an Unencrypted EBS Volume
 1. Take a snapshot. 
-2. Copy Snapshot, while copying enable encryption. 
+2. ==Copy Snapshot,== while copying enable encryption. 
 3. Now use the copy of snapshot to create a volume
 4. The end volume will be encrypted.

@@ -44,9 +44,9 @@
 How it works?
  - Cross account subscriptions 
 	 - create a ==subscription filte==r in sender account 
-	 - on destination account create a== subscription destination==
+	 - on destination account create a ==subscription destination==
 		 - with ==destination access policy== : allowing sender account to put subscription filter 
-	- Create an== IAM role in destination account==, allowing access to put record in KDS. 
+	- Create an ==IAM role in destination account==, allowing access to put record in KDS. 
 	- This IAM role ==can be assumed by ==CloudWatch Logs service in ==Sender account.==
 ## Metric Filters
 - In a  Log group, For eg: we can add a metric filter which will track a custom metric. 

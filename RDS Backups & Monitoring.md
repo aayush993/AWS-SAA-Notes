@@ -12,6 +12,8 @@ RDS Backups
 
 > For Stopped RDS, charges are applicable.  Take a snapshot and restore later. delete your DB.
 
+Automated Backups, Manual and Read Replica's Scope - Cross Region
+
 
 #### Aurora Backup
 1. Auto backup:
@@ -29,7 +31,7 @@ RDS Backups
 	3. Restore backup file into a new RDS instance.
 3. Restore MySQL Aurora cluster from S3
 	1. same process but use percona XtraBackup for creating backup
-
+	
 #### Aurora DB Cloning
 1.  New Aurora DB cluster from existing 
 2. Faster than snapshot and restore. 

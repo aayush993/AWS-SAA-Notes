@@ -1,7 +1,7 @@
 - Data Lake = Central place for all your data for analytical purposes 
 - Fully managed service
 - ==Makes easy to setup data lake== 
-- Discover, cleanse, transform and ingest data into your dtaa lake 
+- Discover, cleanse, transform and ingest data into your data lake 
 - Automated many complex manual steps 
 	- collect 
 	- cleanse

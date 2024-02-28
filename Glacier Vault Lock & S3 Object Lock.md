@@ -20,6 +20,6 @@
 - Legal Hold: 
 	- Protect the object indefinitely, independent from retention period
 	- can be freely placed or removed using S3:PutObjectLegalHold IAM permission.
-While enabling Locking on a bucket you can set default retention and specfiy retention period only 
+While enabling Locking on a bucket you can set default retention and specify retention period only 
 
 On a object you can specify retention date as well

@@ -32,7 +32,7 @@
 - customized permissions based on user_id 
 - Default IAM roles for authenticated and guest users
 - User can go to CUP and get a token 
-	- Exchange the token for temp AWS credntials
+	- Exchange the token for temp AWS credentials
 	- Access designated service
 
 We can give row level security in DynamoDB for fine grain access.

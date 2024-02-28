@@ -26,14 +26,14 @@ Amazon Route 53 is a Highly available, scalable, fully managed and authoritative
 	3. Example: you cant create for example.com, but www.example.com can be created.
 4. NS - Name Servers for the Hosted Zone
 	1. Control how traffic is routed for a domain.
-	2. Anytime we register a domain this will already be there. 
+	2. Anytime we register a domain IN ROUTE 53 this will already be there. 
 
 #### Hosted Zones
 Container for records that define how to route traffic to a domain and its subdomains. 
 - Public Hosted zone - for internet clients
 - Private Hosted Zone - one or more VPCs
 	- For using Private hosted zones in VPC. 
-	- DNS hostnames and DNS resolutions are required settings to be enabled.
+	- DNS hostnames and DNS resolutions are required settings to be enabled. enableDNSSupport and enableDNSHostnames
 	- Not enabled by default if you dont use wizard to create VPC
 	- If we have a Resolver rule call to DNS in our network and there is a conflict with our private hosted zone DNS. Resolver rule takes precedence
 > If your domain name is registered in Route 53, you will see a hosted zone for your Domain name. 
@@ -47,4 +47,7 @@ Container for records that define how to route traffic to a domain and its subdo
 	-  Records are outdated for less time 
 	- easy to change records.
 > Except for Alias record TTL is mandatory for all record types. 
+
+
+
 

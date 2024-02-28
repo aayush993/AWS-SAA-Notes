@@ -1,5 +1,5 @@
 - Alternative to Kinesis
-- Manged streaming for Kafka
+- Managed streaming for Kafka
 - Fully managed Apache Kafka on AWS
 - ==Makes it easy to deploy Kafka== 
 	- Allow to create, update, delete clusters

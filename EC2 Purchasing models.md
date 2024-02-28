@@ -23,14 +23,14 @@
 	2. can lose at any point (current price > max spot price)
 	3. Recommended: workloads resilient to failures.
 	4. Not suitable for critical jobs or DB's
-	5. Spot block can be used for upto 6 hours
+	5. ==Spot block can be used for upto 6 hours==
 5. Dedicated Hosts
 	1. Physical server for EC2's 
-	2. Recommended: compliance, server bound software licenses. 
+	2. Recommended: ==compliance, server bound software licenses.== 
 	3. Purchasing Option: On-Demand, Reserved
 	4. Most expensive
 6. Dedicated Instance 
-	1. Places your instance on hardware dedicated to you.
+	1. Places your instance on ==hardware dedicated to you==.
 	2. Less exposure to physical ports and underlying infra of physical server than Dedicated hosts
 7. Capacity Reservation
 	1.  Reserve On-demand instance capacity in specific AZ for any duration

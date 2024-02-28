@@ -3,7 +3,7 @@
 - By default, logs from EC2 are not send into CloudWatch 
 - Run CloudWatch Log agent to send logs to CloudWatch
 - Make sure IAM permissions are correct 
-- Same way can be setup== for on-prem servers==
+- Same way can be setup ==for on-prem servers==
 
 ### CloudWatch Logs Agent 
 	- old version 

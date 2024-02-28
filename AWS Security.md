@@ -7,6 +7,7 @@
 ## Secret Management
 1. [[SSM Parameter Store]] - ==Serverless==, To store parameter securely.
 2. [[AWS Secrets Manager]] - New Secret storing with forced rotation capability. mostly for RDS credentials
+3. [[Parameter Store vs Secrets Manager]]
 
 ## In-Flight Encryption 
 1. [[AWS Certificate Manager]] 
@@ -38,3 +39,6 @@
 1. [[AWS GuardDuty]] : Intelligent threat discovery using ML and data already present in Logs.
 2. [[Amazon Inspector]] - assessing vulnerabilities - CVE
 3. [[Amazon Macie]] - Identify alert on sensitive data
+
+
+[[AWS Security Hub]] 

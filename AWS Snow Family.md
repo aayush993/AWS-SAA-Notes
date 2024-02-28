@@ -16,7 +16,7 @@
 
 ## Usage
 1. Request a device 
-2. ==install snowball client / [[AWS OpsHub]]== on your servers. 
+2. ==install snowball client== / [[AWS OpsHub]] on your servers. 
 3. connect the snowball and copy files using client. 
 4. ship the device back 
 5. data will be loaded on S3 bucket 
@@ -48,3 +48,7 @@
 
 ## Snowball into Glacier
 Must use S3 first in combination with an S3 lifecycle polciy,
+
+
+Snowball recommended for 10 TB or more data. 
+SnowMobile recommended for more than 10 PB data

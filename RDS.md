@@ -32,4 +32,33 @@ As it is managed:
 	- 6 hours have passed since last modification
 - For applications with un-predictable workloads
 
-More Concepts: [[RDS Backups & Monitoring]] , [[RDS & Aurora Security]], [[RDS Proxy]] 
+More Concepts:
+[[RDS Backups & Monitoring]] 
+[[RDS & Aurora Security]]
+[[RDS Proxy]] 
+[[RDS & Aurora MySQL Migrations]] 
+[[RDS - Invoke Lambda & Event Notifications]]
+## RDS Maintenance and Downtime.
+- HW Maintenance
+		- 1 AZ - unavailable for few minutes 
+		- Multi-AZ - If maintenance for Primary AZ. It fails over to secondary in 60 sec
+			- if secondary no down time. 
+- OS Maintenance 
+		- Only failover downtime 
+		- secondary updates first 
+		- failover 
+		- and then primary 
+-  DB Engine maintenance
+		- Both primary and secondary updates at same time. 
+		- Downtime is based on DB Size.
+
+## RDS Enhanced Monitoring
+- Enhanced monitoring enables monitoring of OS of your DB in real time. 
+- Stored in cloudwatch for 30 days.
+- We can change the retention
+- RDS Enhanced monitoring 
+	- Shows Primary/Secondary cluster metrics
+	- Shows OS Processes
+	- Shows RDS Child processes
+	- Shows RDS Processes
+	- Shows size, physical mem, cpu and total memory used by process.

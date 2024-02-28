@@ -38,6 +38,5 @@
 [[S3 Transfer Cost]]
 [[Price NAT Gateway vs Gateway VPC Endpoint]] 
 
-
 ## Protecting Your VPC
 1. [[AWS Network Firewall]]

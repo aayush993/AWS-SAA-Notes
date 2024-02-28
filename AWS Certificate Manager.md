@@ -27,7 +27,7 @@
 1. generate cert outside and import to ACM
 2. ==No Auto renewal: manual renew==
 3. Expiry ==Notification== 
-	1. Eventbridge: ACM sends by ==default 45 days before==, no can be configured
+	1. Eventbridge: ACM sends by ==default 45 days before==, number can be configured
 	2. AWS Config: use ==acm-certificate-expiration-check==, get non compliant event in eventbridge
 
 ![[Pasted image 20240203222940.png]]

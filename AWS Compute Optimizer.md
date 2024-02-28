@@ -1,3 +1,3 @@
-- Recommends optimal AWS Compute Resources for your workloads.
+- ==Recommends optimal AWS Compute Resources== for your workloads.
 - help reduce costs and improve performance
 - Uses ML to analyze historical utilization

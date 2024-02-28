@@ -3,7 +3,7 @@
 	- Define possible launch pools (Choose various Instance attributes needed)
 	- More launch pools more choice 
 	- will stop launching instance as cost / capacity maxes
-- Strategies to allocate Spot Instances:
+- ==Strategies to allocate Spot Instances==:
 	- lowestPrice in the pool
 	- diversified: distributed across pool
 	- capacityOptimized 

@@ -32,12 +32,12 @@
 ## FSx Files System Deployment Options 
 1. Scratch File System: temp, highburst
 	1. Temporary Storage 
-	2. No replication 
+	2. ==No replication== 
 	3. High burst 
 	4. Short term processing 
 2. Persistent File System: long term, replica DR
 	1.  Long term 
-	2. Same AZ replica 
+	2. ==Same AZ replica== 
 	3. can replace failed files in minutes 
 
 ## FSx for Netapp ONTAP

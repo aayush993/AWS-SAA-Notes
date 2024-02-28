@@ -15,7 +15,7 @@ Strategies for placing EC2 Instances:
 	1. Span across multiple AZs in the same region
 	2. 100s of Instances per partition
 	3. 7  partitions per AZ
-	4. Each partition different rack 
+	4. ==Each partition different rack== 
 	5. EC2 instance have access to partition info as metadata
 	6. Use case: GDFS, HBase, Cassandra, Kafka
 

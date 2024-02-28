@@ -1,4 +1,4 @@
-- SCP Permissions 
+- [[AWS Organizations Service Control Policies]] - SCP permissions
 - *STUPID* - Dedicated Hosts vs Dedicated Instances
 - [[CloudFormation StackSets]] - for provisioning resources across accounts in various regions.
 - Difference between Cname and [[Alias Records]] 
@@ -16,7 +16,7 @@
 - [[ECS Service Auto Scaling]] - AWS Auto scaling for availability constraint can be done on ECS service's CPU Utilization on ECS Cluster.
 - Transferring data from RDS to redshift with minimal overhead - 
 	- GLUE transfers in batch and need effort in writing scripts. 
-	- DMS needs to be provisioned and it manages CDC for conitnous changes 
+	- DMS needs to be provisioned and it manages CDC for continuous changes 
 	- KDS can work but we need to provision and scale shards as per requirement. Hence DMS is best.
 
 ## Doubted Questions

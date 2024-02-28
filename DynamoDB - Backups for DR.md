@@ -4,5 +4,5 @@
 - On demand backups 
 	- Full backups for long term retention, until explicitly deleted 
 	- Does not effect performance or latency 
-	- Configure and manage by AWS backup ( enables cross region copy)
+	- Configure and manage by [[AWS Backup]] ( enables cross region copy)
 - for both ==recovery process create new table== 

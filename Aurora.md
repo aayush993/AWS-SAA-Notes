@@ -4,7 +4,7 @@ Amazon Aurora
 - Cloud Optimized
 	- 5x better performance over MySQL RDS
 	- 3x Postgres RDS
-- Storage auto scales in increments of 10GB upto 128Gb
+- Storage ==auto scales in increments of 10GB== upto 128Gb
 - Upto 15 replicas and faster replication process than MySQL(==sub 10ms replica lag)==
 - Instantaneous failover. HA native
 - 20% more cost than RDS.
@@ -19,12 +19,12 @@ Amazon Aurora
 3. Auto failover < 30 sec
 4. Master + upto 15 read replicas serving reads
 5. Read replica act as Multi-AZ HA mechanism, 
-	1. Priority tier (0-15) for each replica, high - low
+	1. Priority tier (0-15) for each replica, high priority is lowest number
 6. Support for ==cross region replication==
 
 #### Reader Load Balancing and auto scaling
 Using Reader endpoint in-front of read-replicas (Auto scaling based on policies)
-One writer endpoint in front of master
+One writer endpoint in front of master.
 
 #### Features:
 1. Auto fail over 
@@ -34,7 +34,7 @@ One writer endpoint in front of master
 5. Push button scaling 
 6. auto patching with Zero downtime 
 7. Advance monitoring Routine maintenance
-8. Backtrack: restore data at any point of time without using backups.
+8. ==Backtrack==: restore data at any point of time without using backups.
 
 #### Aurora Custom Endpoint
 1. Specify custom endpoint for subset of aurora instances.
